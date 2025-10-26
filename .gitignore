@@ -1,0 +1,40 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Visual Studio / JetBrains Rider
+[Ee]xported[Oo]bj/
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Builds
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.app
+*.exe
+
+# Crash Reports
+sysinfo.txt

@@ -1,0 +1,4 @@
+repository "Job Interview Simulator/Job Interview Simulator@18966788458987@cloud"
+  path "/"
+    br "/main"
+    co "/main"
