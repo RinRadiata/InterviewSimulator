@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q20
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Post-processing trong URP: Bloom, Depth of Field, Color Grading - implement
+    th\u1EBF n\xE0o?"
+  choices:
+  - text: "URP Post-processing d\xF9ng Volume system: Global Volume v\u1EDBi Volume
+      Profile ch\u1EE9a c\xE1c override (Bloom, DOF, Color Grading, Vignette, Tonemapping).
+      Camera c\u1EA7n Post Processing enabled, Layer mask match Volume. Bloom d\xF9ng
+      Threshold+Intensity, DOF d\xF9ng Focus Distance + Aperture, Color Grading cho
+      LUT-based color correction."
+    score: 3
+    feedbackHint: "Bi\u1EBFt Volume system v\xE0 c\xE1ch configure t\u1EEBng effect."
+  - text: "C\xF3 th\u1EC3 th\xEAm Post Process Layer v\xE0o camera v\xE0 d\xF9ng
+      Post Process Volume."
+    score: 1
+    feedbackHint: "D\xF9ng API c\u0169 c\u1EE7a Built-in pipeline, kh\xF4ng ph\u1EA3i
+      URP."
+  - text: "Th\xEAm Volume component, enable c\xE1c effect mu\u1ED1n d\xF9ng. Camera
+      ph\u1EA3i b\u1EADt Post Processing."
+    score: 2
+    feedbackHint: "Bi\u1EBFt workflow nh\u01B0ng ch\u01B0a n\xF3i \u0111\u01B0\u1EE3c
+      parameters."
+  category: URP

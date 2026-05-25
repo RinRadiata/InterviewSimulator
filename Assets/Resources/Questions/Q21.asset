@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q21
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "LOD (Level of Detail) system ho\u1EA1t \u0111\u1ED9ng nh\u01B0 th\u1EBF
+    n\xE0o?"
+  choices:
+  - text: "LOD Group ch\u1EE9a nhi\u1EC1u mesh \u0111\u1ED9 chi ti\u1EBFt kh\xE1c
+      nhau. Unity t\u1EF1 switch theo kho\u1EA3ng c\xE1ch camera (screen space percentage).
+      LOD 0 = full detail g\u1EA7n, LOD 1/2/3 gi\u1EA3m d\u1EA7n, Culled = \u1EA9n
+      ho\xE0n to\xE0n. Quan tr\u1ECDng cho open world. C\xF3 th\u1EC3 d\xF9ng Simplygon/ProBuilder
+      \u0111\u1EC3 auto-generate LOD mesh. C\u1EA7n set LOD Bias trong Quality Settings."
+    score: 3
+    feedbackHint: "Bi\u1EBFt screen space calculation, LOD Bias, auto-generation."
+  - text: "LOD Group cho ph\xE9p d\xF9ng mesh \u0111\u01A1n gi\u1EA3n h\u01A1n khi
+      object \u1EDF xa. Ti\u1EBFt ki\u1EC7m GPU."
+    score: 2
+    feedbackHint: "Hi\u1EC3u concept nh\u01B0ng ch\u01B0a bi\u1EBFt technical details."
+  - text: "Optimize b\u1EB1ng c\xE1ch gi\u1EA3m polygon tr\u1EF1c ti\u1EBFp."
+    score: 1
+    feedbackHint: "Kh\xF4ng bi\u1EBFt LOD system c\u01A1 b\u1EA3n...."
+  category: URP

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q29
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Version control v\u1EDBi Unity: t\u1EA1i sao c\u1EA7n .gitignore \u0111\u1EB7c
+    bi\u1EC7t? Force Text serialization l\xE0 g\xEC?"
+  choices:
+  - text: "Unity t\u1EA1o nhi\u1EC1u auto-generated file (Library/, Temp/, obj/)
+      n\xEAn ph\u1EA3i gitignore. Force Text serialization (Editor Settings) convert
+      binary .unity/.prefab sang YAML text \u0111\u1EC3 diff/merge \u0111\u01B0\u1EE3c.
+      Meta file ph\u1EA3i commit \u0111\u1EC3 gi\u1EEF GUID references. D\xF9ng Git
+      LFS cho binary asset l\u1EDBn (texture, audio). Unity Version Control (Plastic
+      SCM) cho team l\u1EDBn."
+    score: 3
+    feedbackHint: "Bi\u1EBFt meta files, YAML serialization, LFS - team workflow
+      knowledge."
+  - text: "Ignore Library v\xE0 Temp folder. Ch\u1ECDn Force Text \u0111\u1EC3 merge
+      scene d\u1EC5 h\u01A1n."
+    score: 2
+    feedbackHint: "Bi\u1EBFt 2 \u0111i\u1EC3m quan tr\u1ECDng nh\u1EA5t."
+  - text: "T\xF4i commit t\u1EA5t c\u1EA3 file, \u0111\xF4i khi conflict nh\u01B0ng
+      resolve tay."
+    score: 1
+    feedbackHint: "Kh\xF4ng bi\u1EBFt Unity-specific git workflow, s\u1EBD g\xE2y
+      v\u1EA5n \u0111\u1EC1 trong team."
+  category: Archiecture

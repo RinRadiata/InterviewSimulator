@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q9
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Gi\u1EA3i th\xEDch Addressables system. T\u1EA1i sao d\xF9ng thay Resources.Load?"
+  choices:
+  - text: "Addressables ph\u1EE9c t\u1EA1p, t\xF4i v\u1EABn d\xF9ng Resources.Load
+      cho \u0111\u01A1n gi\u1EA3n."
+    score: 1
+    feedbackHint: "Ch\u01B0a bi\u1EBFt v\u1EA5n \u0111\u1EC1 c\u1EE7a Resources.Load
+      trong production."
+  - text: "Addressables cho ph\xE9p load asset theo \u0111\u1ECBa ch\u1EC9 (key)
+      thay v\xEC path c\u1EE9ng. \u01AFu \u0111i\u1EC3m: async loading kh\xF4ng block
+      main thread, remote asset loading t\u1EEB CDN, memory management t\u1ED1t h\u01A1n
+      (release khi kh\xF4ng d\xF9ng), bundle asset hi\u1EC7u qu\u1EA3 h\u01A1n Resources
+      folder. Resources.Load \u0111\u1ED3ng b\u1ED9 v\xE0 kh\xF3 optimize."
+    score: 3
+    feedbackHint: "N\u1EAFm r\xF5 async, remote loading v\xE0 memory management."
+  - text: "Addressables cho ph\xE9p load asset t\u1EEB internet v\xE0 qu\u1EA3n l\xFD
+      memory t\u1ED1t h\u01A1n. Resources.Load load \u0111\u1ED3ng b\u1ED9 n\xEAn
+      c\xF3 th\u1EC3 lag."
+    score: 2
+    feedbackHint: "Hi\u1EC3u 2 \u0111i\u1EC3m ch\xEDnh nh\u01B0ng ch\u01B0a \u0111\u1EA7y
+      \u0111\u1EE7."
+  category: Unity

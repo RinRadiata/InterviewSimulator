@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q10
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Object Pooling l\xE0 g\xEC? Implement nh\u01B0 th\u1EBF n\xE0o trong
+    Unity?"
+  choices:
+  - text: "Object Pooling pre-instantiate m\u1ED9t s\u1ED1 object, SetActive thay
+      v\xEC Destroy/Instantiate \u0111\u1EC3 tr\xE1nh GC. Implement: Queue<GameObject>
+      pool, GetObject() l\u1EA5y t\u1EEB pool ho\u1EB7c instantiate m\u1EDBi n\u1EBFu
+      r\u1ED7ng, ReturnObject() SetActive false v\xE0 enqueue l\u1EA1i. Unity 2021+
+      c\xF3 built-in ObjectPool<T> class."
+    score: 3
+    feedbackHint: "Bi\u1EBFt implement chi ti\u1EBFt, \u0111\u1EC1 c\u1EADp Unity
+      built-in ObjectPool."
+  - text: "T\u1EA1o s\u1EB5n m\u1ED9t m\u1EA3ng GameObject, t\xE1i s\u1EED d\u1EE5ng
+      b\u1EB1ng SetActive thay v\xEC Instantiate. Tr\xE1nh GC allocation."
+    score: 2
+    feedbackHint: "Hi\u1EC3u concept nh\u01B0ng ch\u01B0a bi\u1EBFt Queue pattern
+      v\xE0 built-in API."
+  - text: "Object Pooling l\xE0 d\xF9ng l\u1EA1i object thay v\xEC t\u1EA1o m\u1EDBi
+      \u0111\u1EC3 t\u0103ng performance."
+    score: 1
+    feedbackHint: "Ch\u1EC9 bi\u1EBFt definition, kh\xF4ng bi\u1EBFt implement."
+  category: Unity

@@ -1,14 +1,14 @@
 using UnityEngine;
-using Neocortex; // Make sure this matches your SDK's namespace
+using Neocortex;
 
 public class PushToTalk : MonoBehaviour
 {
     [Header("Neocortex References")]
-    public NeocortexAudioReceiver audioReceiver;
+    public AudioReceiver audioReceiver;
     public NeocortexSmartAgent smartAgent;
 
     [Header("Settings")]
-    public KeyCode pushToTalkKey = KeyCode.T; // change to any key
+    public KeyCode pushToTalkKey = KeyCode.T; // can change to any key
     public bool logDebug = false;
 
     private bool isRecording = false;
@@ -17,10 +17,10 @@ public class PushToTalk : MonoBehaviour
     {
         // Auto-assign if left empty
         if (audioReceiver == null)
-            audioReceiver = FindObjectOfType<NeocortexAudioReceiver>();
+            audioReceiver = FindFirstObjectByType<AudioReceiver>();
 
         if (smartAgent == null)
-            smartAgent = FindObjectOfType<NeocortexSmartAgent>();
+            smartAgent = FindFirstObjectByType<NeocortexSmartAgent>();
 
         if (audioReceiver == null || smartAgent == null)
             Debug.LogError("⚠️ Missing NeocortexAudioReceiver or NeocortexSmartAgent reference!");

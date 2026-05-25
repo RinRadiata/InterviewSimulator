@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q19
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Shader Graph trong URP: gi\u1EA3i th\xEDch PBR workflow l\xE0 g\xEC?"
+  choices:
+  - text: "PBR (Physically Based Rendering) m\xF4 ph\u1ECFng c\xE1ch \xE1nh s\xE1ng
+      t\u01B0\u01A1ng t\xE1c v\u1EADt li\u1EC7u d\u1EF1a tr\xEAn v\u1EADt l\xFD.
+      Workflow: Metallic (kim lo\u1EA1i/phi kim), Smoothness (\u0111\u1ED9 b\xF3ng),
+      Normal Map (gi\u1EA3 chi ti\u1EBFt b\u1EC1 m\u1EB7t), Occlusion (b\xF3ng trong
+      k\u1EBD n\u1EE9t), Emission. Shader Graph cho ph\xE9p t\u1EA1o custom shader
+      kh\xF4ng c\u1EA7n code, k\u1EBFt n\u1ED1i node visual."
+    score: 3
+    feedbackHint: "Hi\u1EC3u PBR channels v\xE0 bi\u1EBFt Shader Graph."
+  - text: "T\xF4i d\xF9ng standard material, Shader Graph t\xF4i ch\u01B0a h\u1ECDc
+      nhi\u1EC1u."
+    score: 1
+    feedbackHint: "Ch\u01B0a \u0111\u1EA7u t\u01B0 h\u1ECDc rendering pipeline."
+  - text: "PBR d\xF9ng texture nh\u01B0 Albedo, Normal, Metallic \u0111\u1EC3 t\u1EA1o
+      v\u1EADt li\u1EC7u tr\xF4ng th\u1EF1c. Shader Graph d\xF9ng node thay code."
+    score: 2
+    feedbackHint: "Hi\u1EC3u c\u01A1 b\u1EA3n nh\u01B0ng ch\u01B0a gi\u1EA3i th\xEDch
+      physics-based concept."
+  category: URP

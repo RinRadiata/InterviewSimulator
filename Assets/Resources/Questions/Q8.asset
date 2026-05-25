@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q8
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "ScriptableObject l\xE0 g\xEC? \u01AFu \u0111i\u1EC3m so v\u1EDBi MonoBehaviour
+    khi l\u01B0u data?"
+  choices:
+  - text: "T\xF4i th\u01B0\u1EDDng d\xF9ng PlayerPrefs ho\u1EB7c JSON \u0111\u1EC3
+      l\u01B0u data."
+    score: 1
+    feedbackHint: "Kh\xF4ng hi\u1EC3u ScriptableObject, nh\u1EA7m v\u1EDBi persistence
+      storage."
+  - text: "ScriptableObject d\xF9ng \u0111\u1EC3 l\u01B0u data nh\u01B0 item database,
+      kh\xF4ng g\u1EAFn v\xE0o GameObject. Ti\u1EC7n h\u01A1n l\xE0 d\xF9ng static
+      class."
+    score: 2
+    feedbackHint: "Hi\u1EC3u m\u1EE5c \u0111\xEDch nh\u01B0ng ch\u01B0a n\xF3i \u0111\u1EBFn
+      memory/sharing benefits."
+  - text: "ScriptableObject l\xE0 asset l\u01B0u data \u0111\u1ED9c l\u1EADp v\u1EDBi
+      scene, shared gi\u1EEFa nhi\u1EC1u instance m\xE0 kh\xF4ng duplicate data.
+      T\u1ED1t h\u01A1n MonoBehaviour cho game data (item stats, config) v\xEC: t\u1ED3n
+      t\u1EA1i ngo\xE0i scene, d\u1EC5 edit trong Inspector, serializable. H\u1ED7
+      tr\u1EE3 hot-reload v\xE0 d\u1EC5 test."
+    score: 3
+    feedbackHint: "Hi\u1EC3u r\xF5 use case v\xE0 l\u1EE3i \xEDch, \u0111\u1EC1 c\u1EADp
+      hot-reload."
+  category: Unity

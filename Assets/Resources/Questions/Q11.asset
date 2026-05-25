@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q11
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Layer, Tag, v\xE0 Physics Layer Matrix d\xF9ng \u0111\u1EC3 l\xE0m g\xEC?"
+  choices:
+  - text: "Layer d\xF9ng cho rendering (camera culling mask) v\xE0 physics (collision
+      matrix). Tag d\xF9ng \u0111\u1EC3 identify object nhanh b\u1EB1ng CompareTag.
+      Physics Layer Matrix (Edit > Project Settings > Physics) \u0111\u1ECBnh ngh\u0129a
+      layer n\xE0o collide v\u1EDBi layer n\xE0o - critical \u0111\u1EC3 t\u1ED1i
+      \u01B0u physics query v\xE0 tr\xE1nh self-collision.\r\n"
+    score: 3
+    feedbackHint: "Ph\xE2n bi\u1EC7t r\xF5 Layer vs Tag, bi\u1EBFt Physics Matrix."
+  - text: "Layer \u0111\u1EC3 nh\xF3m object cho camera v\xE0 physics. Tag \u0111\u1EC3
+      t\xECm ki\u1EBFm object b\u1EB1ng FindGameObjectWithTag."
+    score: 2
+    feedbackHint: "\u0110\xFAng nh\u01B0ng FindGameObjectWithTag r\u1EA5t ch\u1EADm,
+      kh\xF4ng n\xEAn d\xF9ng."
+  - text: "Tag d\xF9ng \u0111\u1EC3 mark object v\xED d\u1EE5 'Player', 'Enemy'.
+      Layer t\xF4i \xEDt d\xF9ng"
+    score: 1
+    feedbackHint: "Ch\u1EC9 bi\u1EBFt Tag c\u01A1 b\u1EA3n, kh\xF4ng hi\u1EC3u Layer
+      importance."
+  category: Unity

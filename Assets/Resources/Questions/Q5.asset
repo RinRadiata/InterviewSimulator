@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q5
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Garbage Collection trong Unity \u1EA3nh h\u01B0\u1EDFng th\u1EBF n\xE0o
+    \u0111\u1EBFn performance? C\xE1ch tr\xE1nh?"
+  choices:
+  - text: "GC ch\u1EA1y khi heap \u0111\u1EA7y, g\xE2y spike framerate. Tr\xE1nh
+      b\u1EB1ng: object pooling thay new/Destroy, tr\xE1nh boxing value types, kh\xF4ng
+      d\xF9ng LINQ trong Update, cache component reference thay GetComponent m\u1ED7i
+      frame, d\xF9ng StringBuilder thay string concatenation"
+    score: 3
+    feedbackHint: "Li\u1EC7t k\xEA \u0111\u1EE7 c\xE1c anti-pattern ph\u1ED5 bi\u1EBFn,
+      c\xF3 gi\u1EA3i ph\xE1p c\u1EE5 th\u1EC3."
+  - text: "GC t\u1EF1 x\u1EED l\xFD n\xEAn th\u01B0\u1EDDng kh\xF4ng c\u1EA7n lo.
+      Khi game lag th\xEC m\u1EDBi xem."
+    score: 1
+    feedbackHint: "Kh\xF4ng ch\u1EE7 \u0111\u1ED9ng v\u1EC1 performance, s\u1EBD
+      g\xE2y v\u1EA5n \u0111\u1EC1 trong production."
+  - text: "N\xEAn d\xF9ng Object Pooling \u0111\u1EC3 tr\xE1nh t\u1EA1o/destroy nhi\u1EC1u
+      object. C\u0169ng kh\xF4ng n\xEAn d\xF9ng GetComponent li\xEAn t\u1EE5c."
+    score: 2
+    feedbackHint: "Bi\u1EBFt 2 gi\u1EA3i ph\xE1p quan tr\u1ECDng nh\u01B0ng ch\u01B0a
+      \u0111\u1EA7y \u0111\u1EE7."
+  category: C#

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q13
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Theo b\u1EA1n Navmesh v\xE0 Pathfinding trong Unity ho\u1EA1t \u0111\u1ED9ng
+    nh\u01B0 th\u1EBF n\xE0o?"
+  choices:
+  - text: "D\xF9ng Asset Store pathfinding thay NavMesh v\xEC \u0111\u01A1n gi\u1EA3n
+      h\u01A1n."
+    score: 1
+    feedbackHint: "Ch\u01B0a h\u1ECDc NavMesh built-in, ph\u1EE5 thu\u1ED9c third-party."
+  - text: "Bake NavMesh tr\xEAn terrain, g\u1EAFn NavMeshAgent v\xE0o NPC, d\xF9ng
+      SetDestination. Agent t\u1EF1 t\xECm \u0111\u01B0\u1EDDng tr\xE1nh v\u1EADt
+      c\u1EA3n."
+    score: 2
+    feedbackHint: "i\u1EBFt workflow c\u01A1 b\u1EA3n nh\u01B0ng ch\u01B0a bi\u1EBFt
+      advanced features."
+  - text: "NavMesh bake geometry th\xE0nh navigable surface. NavMeshAgent t\u1EF1
+      t\xEDnh path b\u1EB1ng A* algorithm t\u1EDBi destination, tr\xE1nh obstacle.
+      NavMeshObstacle cho dynamic obstacle. \u0110\u1EC3 complex AI: NavMesh Surface
+      (package) cho runtime bake, NavMeshLink cho off-mesh links (nh\u1EA3y, leo).
+      Pathfinding m\u1EB7c \u0111\u1ECBnh kh\xF4ng ph\u1EA3i real-time n\xEAn c\u1EA7n
+      SetDestination c\xF3 chu k\u1EF3."
+    score: 3
+    feedbackHint: "Bi\u1EBFt c\u1EA3 dynamic obstacle, off-mesh link v\xE0 performance
+      consideration."
+  category: Unity

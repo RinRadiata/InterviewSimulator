@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q25
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Dependency Injection trong Unity - implement th\u1EBF n\xE0o kh\xF4ng
+    d\xF9ng framework?"
+  choices:
+  - text: "DI l\xE0 truy\u1EC1n dependency v\xE0o thay v\xEC hardcode. Trong Unity
+      hay d\xF9ng Inspector \u0111\u1EC3 assign reference."
+    score: 2
+    feedbackHint: "Hi\u1EC3u concept, bi\u1EBFt Inspector injection."
+  - text: "DI l\xE0 cung c\u1EA5p dependency t\u1EEB ngo\xE0i v\xE0o thay v\xEC t\u1EF1
+      t\u1EA1o b\xEAn trong. Trong Unity: Constructor injection kh\xF4ng kh\u1EA3
+      d\u1EE5ng v\u1EDBi MonoBehaviour, d\xF9ng [SerializeField] injection (g\xE1n
+      qua Inspector), method injection (Init(IDependency dep)), ho\u1EB7c Service
+      Locator. Framework: Zenject/VContainer. L\u1EE3i \xEDch: testable, decoupled,
+      d\u1EC5 mock."
+    score: 3
+    feedbackHint: "Hi\u1EC3u DI trong context Unity, bi\u1EBFt Zenject/VContainer."
+  - text: "T\xF4i d\xF9ng FindObjectOfType ho\u1EB7c GetComponent \u0111\u1EC3 l\u1EA5y
+      reference."
+    score: 1
+    feedbackHint: "Tight coupling, kh\xF4ng bi\u1EBFt DI."
+  category: Architecture

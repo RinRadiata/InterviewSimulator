@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q7
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Update, FixedUpdate v\xE0 LateUpdate kh\xE1c nhau nh\u01B0 th\u1EBF
+    n\xE0o? Khi n\xE0o d\xF9ng t\u1EEBng c\xE1i?"
+  choices:
+  - text: "T\xF4i ch\u1EC9 hay d\xF9ng Update. FixedUpdate th\xEC d\xF9ng khi c\u1EA7n
+      physics."
+    score: 1
+    feedbackHint: "Thi\u1EBFu hi\u1EC3u bi\u1EBFt v\u1EC1 LateUpdate v\xE0 timestep."
+  - text: "Update ch\u1EA1y m\u1ED7i frame (variable timestep) - d\xF9ng cho input
+      v\xE0 game logic. FixedUpdate ch\u1EA1y theo physics timestep c\u1ED1 \u0111\u1ECBnh
+      (default 0.02s) - b\u1EAFt bu\u1ED9c cho Rigidbody v\xE0 physics. LateUpdate
+      ch\u1EA1y sau t\u1EA5t c\u1EA3 Update - d\xF9ng cho camera follow \u0111\u1EC3
+      tr\xE1nh jitter."
+    score: 3
+    feedbackHint: "Ph\xE2n bi\u1EC7t ch\xEDnh x\xE1c c\u1EA3 3, bi\u1EBFt d\xF9ng
+      LateUpdate cho camera."
+  - text: "FixedUpdate cho physics, Update cho game logic th\xF4ng th\u01B0\u1EDDng.
+      LateUpdate ch\u1EA1y sau c\xF9ng."
+    score: 2
+    feedbackHint: "\u0110\xFAng nh\u01B0ng ch\u01B0a gi\u1EA3i th\xEDch v\xEC sao
+      FixedUpdate quan tr\u1ECDng v\u1EDBi physics."
+  category: Unity

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q23
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Singleton pattern trong Unity - \u01B0u v\xE0 nh\u01B0\u1EE3c \u0111i\u1EC3m?"
+  choices:
+  - text: "Singleton ti\u1EC7n cho global access (AudioManager, GameManager) nh\u01B0ng
+      nh\u01B0\u1EE3c \u0111i\u1EC3m: tight coupling, kh\xF3 test, kh\xF3 debug (hidden
+      dependencies), v\u1EA5n \u0111\u1EC1 v\u1EDBi scene loading. Alternative t\u1ED1t
+      h\u01A1n: Dependency Injection, ScriptableObject as service, ho\u1EB7c Service
+      Locator pattern. N\u1EBFu d\xF9ng Singleton ph\u1EA3i c\u1EA9n th\u1EADn DontDestroyOnLoad
+      v\xE0 thread safety."
+    score: 3
+    feedbackHint: "Bi\u1EBFt anti-pattern v\xE0 alternatives - senior thinking."
+  - text: "Singleton ti\u1EC7n nh\u01B0ng t\u1EA1o tight coupling. N\xEAn d\xF9ng
+      c\u1EA9n th\u1EADn, kh\xF4ng l\u1EA1m d\u1EE5ng."
+    score: 2
+    feedbackHint: "Nh\u1EADn th\u1EE9c \u0111\u01B0\u1EE3c v\u1EA5n \u0111\u1EC1
+      nh\u01B0ng ch\u01B0a bi\u1EBFt alternatives."
+  - text: "Singleton r\u1EA5t ti\u1EC7n, t\xF4i d\xF9ng cho h\u1EA7u h\u1EBFt Manager
+      class."
+    score: 1
+    feedbackHint: "L\u1EA1m d\u1EE5ng Singleton - design smell."
+  category: Architecture

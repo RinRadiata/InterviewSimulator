@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb236693f9dbe47498f4dd7ccccbfbf3, type: 3}
+  m_Name: Q28
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewQuestionData
+  question: "Profiling trong Unity: CPU Profiler, Memory Profiler, Frame Debugger
+    \u2014 d\xF9ng khi n\xE0o?"
+  choices:
+  - text: "CPU Profiler: identify spike, xem time m\u1ED7i function \u2014 look for
+      hot paths trong Update. Memory Profiler: detect memory leak, xem allocation
+      snapshot. Frame Debugger: xem t\u1EEBng draw call v\xE0 render pass \u2014
+      debug batching issue, shader, post-process. D\xF9ng Deep Profile \u0111\u1EC3
+      xem managed code. Lu\xF4n profile tr\xEAn device th\u1EADt, kh\xF4ng trust
+      Editor."
+    score: 3
+    feedbackHint: "Bi\u1EBFt d\xF9ng c\u1EA3 3 tool v\xE0 quan tr\u1ECDng l\xE0 profile
+      on device."
+  - text: "CPU Profiler xem performance, Memory Profiler xem memory. D\xF9ng khi
+      game lag."
+    score: 2
+    feedbackHint: "Bi\u1EBFt 2 tool c\u01A1 b\u1EA3n nh\u01B0ng ch\u01B0a bi\u1EBFt
+      Frame Debugger."
+  - text: "T\xF4i d\xF9ng Debug.Log \u0111\u1EC3 \u0111o th\u1EDDi gian execute."
+    score: 1
+    feedbackHint: "Debug.Log \u1EA3nh h\u01B0\u1EDFng performance, kh\xF4ng ph\u1EA3i
+      profiling tool."
+  category: Architecture

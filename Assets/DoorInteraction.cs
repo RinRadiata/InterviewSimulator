@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DoorInteraction : MonoBehaviour
 {
-    public bool isOpen = false;
+    public bool isOpen = true;
     public float openAngle = 90f;
     public float openSpeed = 2f;
     private Quaternion closedRotation;
