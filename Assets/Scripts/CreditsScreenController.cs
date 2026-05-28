@@ -69,7 +69,7 @@ public class CreditScreenController : MonoBehaviour
         line1Text.text = "";
         line2Text.text = "";
         line3Text.text = "";
-        skipHintText.text = "Press Space to skip";
+        skipHintText.text = "(Press Space to skip)";
 
         yield return TypeWrite(line1Text, line1Content);
         yield return new WaitForSeconds(0.4f);
